@@ -2,6 +2,6 @@
 
 ## Áttekintés
 
-Ez a projekt egy **Python Streamlit** alkalmazás, amely a pandák napi szokásait jeleníti meg grafikonokon. A Streamlit egyszerűségét és interaktivitását kihasználva a felhasználók könnyedén felfedezhetik az adatokat, amelyek egy CSV fájlban vannak tárolva, és betekintést nyerhetnek ezeknek a lenyűgöző állatoknak a rutinjaiba.
+Ez a projekt egy **Python Streamlit** alkalmazás, amely a pandák napi szokásait jeleníti meg grafikonokon. Az adatokat a <b>panda_daily_habits.csv<b> fájlban vannak tárolva. 
 
 ---

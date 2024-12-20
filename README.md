@@ -1,4 +1,5 @@
 # Pandák Napi Szokásainak Vizualizációja
+Devops kötprog by Füle Szabolcs CEVLCW 2024
 
 ## Áttekintés
 

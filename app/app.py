@@ -33,3 +33,4 @@ if uploaded_file is not None:
     st.plotly_chart(fig)
 else:
     st.info("Kérlek, tölts fel egy CSV fájlt az elemzéshez!")
+

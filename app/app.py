@@ -2,9 +2,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 @st.cache_data
 def load_data(uploaded_file):
     return pd.read_csv(uploaded_file)
+
 
 st.set_page_config(
     page_title="Óriás Pandák Napi Teendői",
@@ -12,8 +14,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("Óriás Pandák Napi Teendői 🐼")
 
+st.title("Óriás Pandák Napi Teendői 🐼")
 uploaded_file = st.file_uploader("Tölts fel egy CSV fájlt az óriás pandák napi tevékenységeiről", type="csv")
 
 if uploaded_file is not None:
@@ -31,5 +33,3 @@ if uploaded_file is not None:
     st.plotly_chart(fig)
 else:
     st.info("Kérlek, tölts fel egy CSV fájlt az elemzéshez!")
-
-# valami izébizé

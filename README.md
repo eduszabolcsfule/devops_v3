@@ -18,4 +18,4 @@ Ez a projekt egy **Python Streamlit** alkalmazás, amely a pandák fiktív napi 
     3. Ha minden ellenőrzés sikeres, az alkalmazást automatikusan deploy-olja.
 
 ![Error1](images/2.jpg)
-![Error2](images/3.jpg
+![Error2](images/3.jpg)
